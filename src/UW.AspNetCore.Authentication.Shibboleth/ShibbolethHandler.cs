@@ -250,10 +250,10 @@ public class ShibbolethHandler : AuthenticationHandler<ShibbolethOptions>,
     protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
     {
         var endpoint = Context.GetEndpoint();
-        if (endpoint?.Metadata?.GetMetadata<IAllowAnonymous>() != null)
-        {
-            return AuthenticateResult.NoResult();
-        }
+        // if (endpoint?.Metadata?.GetMetadata<IAllowAnonymous>() != null)
+        // {
+        //     return AuthenticateResult.NoResult();
+        // }
 
         // if using challenge, another handler will be handling authentication (typically cookie middleware)
         if (Options.UseChallenge)
