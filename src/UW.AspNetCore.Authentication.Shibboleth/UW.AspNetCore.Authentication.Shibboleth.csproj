@@ -5,7 +5,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>Library for handling UW's Shibboleth authentication in ASP.NET web applications</Description>
 		<RepositoryUrl>https://github.com/uw-madison-aae/uw.authentication.shibboleth</RepositoryUrl>
-		<Version>8.0.1</Version>
+		<Version>8.0.2</Version>
 		<RootNamespace>UW.AspNetCore.Authentication</RootNamespace>
 		<PackageReleaseNotes>Fix challenge logic for DefaultIdentity</PackageReleaseNotes>
 		<RepositoryType>git</RepositoryType>
